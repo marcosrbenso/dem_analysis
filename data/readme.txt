@@ -40,6 +40,4 @@ Make sure to align all DEMs to the same CRS and resolution before comparative an
 
 ### 🧾 Citation
 
-If you use this dataset, please cite the accompanying GitHub repository and/or reference material:
 
-> Benso, M. R. (2025). *DEM Accuracy Analysis Toolkit* [Computer software]. GitHub. https://github.com/marcosrbenso/dem_analysis
