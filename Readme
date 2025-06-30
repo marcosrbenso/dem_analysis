@@ -1,1 +1,29 @@
-Read me
+# DEM Accuracy Analysis Toolkit
+
+**Author**: Marcos Roberto Benso  
+**Date**: June 30, 2025
+
+This R-based toolkit provides a reproducible workflow for analyzing the accuracy of different Digital Elevation Models (DEMs) using a variety of statistical metrics and visualizations. It supports automated comparison of DEM products against a reference elevation model.
+
+---
+
+## 📦 Features
+
+- Automatic loading and alignment of DEMs
+- Calculates RMSE, MAE, and PBIAS for each DEM
+- Generates spatial error maps with `rasterVis`
+- Creates boxplots for visual comparison of DEM errors
+- Exports results to CSV for further analysis
+
+---
+
+## 🛠️ Requirements
+
+Install the required R packages (automatically handled by the script):
+
+```r
+install.packages(c(
+  "terra", "raster", "hydroGOF", "ggplot2", "rasterVis",
+  "RColorBrewer", "sp", "gstat", "tidyverse", "reshape2",
+  "cowplot", "grid", "scales"
+))
